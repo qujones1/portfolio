@@ -1,5 +1,2 @@
 const withNextra = require('nextra')('nextra-theme-blog', './theme.config.js')
-module.exports = withNextra(
-  {
-    target: 'severless'
-  })
+module.exports = withNextra()
