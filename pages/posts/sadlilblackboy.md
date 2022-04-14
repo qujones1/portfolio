@@ -7,10 +7,10 @@ author: Quentin Jones
 ---
 
 
-##Introduction
+## Introduction
 
-##Design Decisions
+## Design Decisions
 
-##Under The Helmet
+## Under The Helmet
 
-##Form Submission
+## Form Submission
