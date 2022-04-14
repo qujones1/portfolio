@@ -5,3 +5,12 @@ description: Detailed description of the development of the Sadlilblackboy artis
 tag: web development
 author: Quentin Jones
 ---
+
+
+##Introduction
+
+##Design Decisions
+
+##Under The Helmet
+
+##Form Submission
