@@ -19,57 +19,14 @@ And, if you don't use the premade site services, a script is provided to be adde
   
   The script needed to be run on every route change and page load, to accomplish this I utilized Gatsby's [onRouteChange](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-browser/#onRouteUpdate) API.
   
-  ```
-  exports.onRouteUpdate = function () {
-  if (process.env.NODE_ENV === `production` && typeof fbq === `function`) {
-    fbq("track", "ViewContent");
-  }
-};
-```
+
 
 This ensures on every page and page change a **ViewContent** action was tracked.
 Now we just need to run the script on each render.
   
-```
-  import React from "react";
 
-exports.onRenderBody = ({ setHeadComponents }, pluginOptions) => {
-  if (
-    process.env.NODE_ENV === `production` &&
-    pluginOptions &&
-    pluginOptions.pixelId
-  ) {
-    return setHeadComponents([
-      <script
-        key={`gatsby-plugin-tiktok-pixel`}
-        dangerouslySetInnerHTML={{
-          __html: `
-  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-  document,'script','https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '${pluginOptions.pixelId}'); // Insert your pixel ID here.
-  fbq('track', 'PageView');
-      `,
-        }}
-      />,
-    ]);
-  }
-};
-```
 This also adds the capability of adding multiple pixels quickly by simply updating the Gatsby-config.js file with multiple pixelId Options:
   
-  ```
-  // In your gatsby-config.js
-plugins: [
-  {
-    resolve: `gatsby-plugin-tiktok-pixel`,
-    options: {
-      pixelId: "pixel id here",
-    },
-  },
-];
- ```
+
  
 
