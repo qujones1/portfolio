@@ -1,5 +1,5 @@
 ---
-title: Gatsby Tiktok Pixel plugin
+title: Gatsby Tiktok Pixel Plugin
 date: 2022/4/14
 description: Desciprtion of my Tiktok Pixel plugin Development.
 tag: web development
@@ -70,5 +70,6 @@ plugins: [
     },
   },
 ];
+ ```
  
 
