@@ -49,7 +49,7 @@ As mentioned above, for hosting I utilized netlify which, has built-in form subm
 
 The only negative of this edition was I recieved too many submissions  . . . so many that netlify no longer let my site be hosted for free; as I quickly reached the free monthly limit of submissions in the first week.
 
-#### Re-worked Navigation
+##### Re-worked Navigation
 
 With these newly added features, I now needed to have a way to make them easily **accessible.** The current navigation from Version one was . . . practically non-existent, as the focus was to have all content for users available on one page, but with growth comes change. The existing layout catered to replacing the existing cenetered social media icons with a nav bar.
 
