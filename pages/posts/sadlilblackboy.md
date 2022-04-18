@@ -24,9 +24,23 @@ For any creative platform, the design can be equally important as the content. S
 ### Version One (starting out)
 Initially, I found it most useful and efficient to have one long scroll of content. 90% of users were visiting on mobile and nearly all of that traffic was coming from social media, so a familiar interface was welcomed. To ensure our core concepts of grappling and accessible were met, the first thing shown on the site was the most recent content piece posted. This long form video content was already being marketed in pieces, so the full thing would be exactly what they're looking for on their first visit.  
 
+```
+\\screenshots image code here
+
+```
 Directly below this was merch items to be sold. This allowed returning visitors to support the website and have it in view on every visit. 
 
+```
+\\screenshots image code here
+
+```
+
 Finally, we have all previous releases and posts that would interest visitors. This gives them more content to keep them on the site and binge.
+
+```
+\\screenshots image code here
+
+```
 
 ### Version Two (growth)
 
@@ -51,11 +65,16 @@ The only negative of this edition was I recieved too many submissions  . . . so 
 
 With these newly added features, I now needed to have a way to make them easily **accessible.** The current navigation from Version one was . . . practically non-existent, as the focus was to have all content for users available on one page, but with growth comes change. The existing layout catered to replacing the existing cenetered social media icons with a nav bar.
 
+```
+\\code and screenshots here
 
+```
 
-
+This new nav bar also serves the purpose of sharing the playlist content with visitors and informing them of the newly submissions and weekly featurings, while still keeping all of the primary content immediately accessible.
 
 ### Version Three (Division)
+
+Talk about how they couldn't see da vision like a line between two dots . . . or something.
 
 
 
