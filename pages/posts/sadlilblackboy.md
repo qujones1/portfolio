@@ -10,7 +10,7 @@ author: Quentin Jones
 ## Introduction
 As a musician in the digital age, a landing page is critical for converting listeners and followers to customers generating revenue through digital sales. Throughout an entire muscians career, social media, streaming platforms, and distribution styles will always change; this makes it critical to have a consistent landing page for your audience to be able to find your content.
 
-## Under The Helmet
+## Under The Hood
 
 - Gatsby.js
 - Typescript
