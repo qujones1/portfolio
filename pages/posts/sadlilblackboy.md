@@ -33,7 +33,7 @@ Finally, we have all previous releases and posts that would interest visitors. T
 In a digital age, the growth of any company comes from the community you've built around it. The hardest part isn't creating a solid product, but creating a connection to your customers and audience. With the exponential monthly growth in this audience, I wanted to further the connection and community I created. To do this I planned to showcase other artists within this community in the form of playlists. Every week I would take submissions from community members that visited the site and share new additions to the playlist on social media platforms.
 
 #### Form Submissions
-As mentioned above, for hosting I utilized netlify which, has built-in form submission on their platform. It didn't much additional configuration from the standard HTML and CSS in creating a form, and it also included a spam-filter, which ended up being *VERY* necessary.
+As mentioned above, for hosting I utilized netlify which, has built-in form submission on their platform. It didn't require much additional configuration from the standard HTML and CSS in creating a form, and it also included a spam-filter, which ended up being *VERY* necessary.
 
 ```
 <form
